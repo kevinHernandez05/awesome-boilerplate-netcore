@@ -10,6 +10,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Boilerplate.Model\Boilerplate.Model.csproj" />
+    <ProjectReference Include="..\Boilerplate.Service\Boilerplate.Service.csproj" />
+
   </ItemGroup>
 
 

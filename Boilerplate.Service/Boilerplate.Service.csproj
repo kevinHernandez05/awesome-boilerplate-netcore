@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Boilerplate.Model\Boilerplate.Model.csproj" />
+    <ProjectReference Include="..\Boilerplater.DataAccess\Boilerplater.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

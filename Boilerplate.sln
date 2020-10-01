@@ -13,6 +13,8 @@ Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Boilerplate.Client", "Boile
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boilerplate.Test", "Boilerplate.Test\Boilerplate.Test.csproj", "{68EEE0B5-51AB-4869-95BA-59F35DFD7518}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boilerplate.Service", "Boilerplate.Service\Boilerplate.Service.csproj", "{D186E804-3C1D-4A93-9DEA-D1670287F374}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{68EEE0B5-51AB-4869-95BA-59F35DFD7518}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68EEE0B5-51AB-4869-95BA-59F35DFD7518}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68EEE0B5-51AB-4869-95BA-59F35DFD7518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D186E804-3C1D-4A93-9DEA-D1670287F374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D186E804-3C1D-4A93-9DEA-D1670287F374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D186E804-3C1D-4A93-9DEA-D1670287F374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D186E804-3C1D-4A93-9DEA-D1670287F374}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

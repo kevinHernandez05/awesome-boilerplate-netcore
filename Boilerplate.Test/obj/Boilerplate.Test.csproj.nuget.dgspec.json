@@ -59,6 +59,68 @@
         }
       }
     },
+    "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj",
+        "projectName": "Boilerplate.Service",
+        "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj",
+        "packagesPath": "C:\\Users\\ke.hernandez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ke.hernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj": {
+                "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj"
+              },
+              "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplater.DataAccess\\Boilerplater.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplater.DataAccess\\Boilerplater.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Test\\Boilerplate.Test.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -85,6 +147,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj": {
+                "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj"
+              },
               "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate\\Boilerplate.API.csproj": {
                 "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate\\Boilerplate.API.csproj"
               }
@@ -103,6 +168,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.6, )"
             },
             "coverlet.collector": {
               "target": "Package",
@@ -139,6 +208,89 @@
         }
       }
     },
+    "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplater.DataAccess\\Boilerplater.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplater.DataAccess\\Boilerplater.DataAccess.csproj",
+        "projectName": "Boilerplater.DataAccess",
+        "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplater.DataAccess\\Boilerplater.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ke.hernandez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplater.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ke.hernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj": {
+                "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate\\Boilerplate.API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -167,6 +319,9 @@
             "projectReferences": {
               "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj": {
                 "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj"
+              },
+              "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj": {
+                "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj"
               }
             }
           }
