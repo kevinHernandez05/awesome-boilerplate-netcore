@@ -1,6 +1,8 @@
 using System;
 using Boilerplate.API.Installers;
 using Boilerplate.Service;
+using Boilerplate.Service.Helpers;
+using Boilerplate.Service.Helpers.jwt;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -41,6 +43,7 @@ namespace Boilerplate
             app.UseSwagger();
             app.UseRouting();
             app.UseAuthorization();
+            app.UseMiddleware<JWTMiddleware>();
 
             app.UseEndpoints(endpoints =>
             {
