@@ -1,4 +1,5 @@
 ﻿using Boilerplate.Service;
+using Boilerplate.Service.Helpers;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -14,6 +15,11 @@ namespace Boilerplate.API.Installers
         {
             //DI
             services.AddTransient<IWeatherForecastService, WeatherForecastService>();
+            services.AddTransient<IUserService, UserService>();
+
+            //JWT Setting
+            services.Configure<AppSettings>(configuration.GetSection("AppSettings"));
+
 
             // automapper
 
