@@ -4,15 +4,14 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <Name>Boilerplate.Client</Name>
-    <RootNamespace>Boilerplate.UI</RootNamespace>
+    <RootNamespace>Boilerplate.Client</RootNamespace>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>46f35034-95ed-4b21-bb92-2c4ac6e29de9</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
+    <ProjectGuid>8cda86aa-51d1-417f-aacc-132b461ae602</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
     <StartupFile>node_modules\@vue\cli-service\bin\vue-cli-service.js</StartupFile>
     <SearchPath>
     </SearchPath>
