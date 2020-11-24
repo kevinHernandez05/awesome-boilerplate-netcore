@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Test\\Boilerplate.Test.csproj": {}
+    "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Test\\Boilerplate.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj": {
+    "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj",
+        "projectUniqueName": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj",
         "projectName": "Boilerplate.Model",
-        "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj",
+        "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj",
         "packagesPath": "C:\\Users\\ke.hernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Model\\obj\\",
+        "outputPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\ke.hernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -55,25 +57,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj": {
+    "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj",
+        "projectUniqueName": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj",
         "projectName": "Boilerplate.Service",
-        "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj",
+        "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj",
         "packagesPath": "C:\\Users\\ke.hernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Service\\obj\\",
+        "outputPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\ke.hernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -85,11 +89,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj": {
-                "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj"
+              "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj": {
+                "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj"
               },
-              "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplater.DataAccess\\Boilerplater.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplater.DataAccess\\Boilerplater.DataAccess.csproj"
+              "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplater.DataAccess\\Boilerplater.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplater.DataAccess\\Boilerplater.DataAccess.csproj"
               }
             }
           }
@@ -127,25 +131,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Test\\Boilerplate.Test.csproj": {
+    "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Test\\Boilerplate.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Test\\Boilerplate.Test.csproj",
+        "projectUniqueName": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Test\\Boilerplate.Test.csproj",
         "projectName": "Boilerplate.Test",
-        "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Test\\Boilerplate.Test.csproj",
+        "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Test\\Boilerplate.Test.csproj",
         "packagesPath": "C:\\Users\\ke.hernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Test\\obj\\",
+        "outputPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\ke.hernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -157,11 +163,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj": {
-                "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj"
+              "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj": {
+                "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj"
               },
-              "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate\\Boilerplate.API.csproj": {
-                "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate\\Boilerplate.API.csproj"
+              "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate\\Boilerplate.API.csproj": {
+                "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate\\Boilerplate.API.csproj"
               }
             }
           }
@@ -214,25 +220,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplater.DataAccess\\Boilerplater.DataAccess.csproj": {
+    "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplater.DataAccess\\Boilerplater.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplater.DataAccess\\Boilerplater.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplater.DataAccess\\Boilerplater.DataAccess.csproj",
         "projectName": "Boilerplater.DataAccess",
-        "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplater.DataAccess\\Boilerplater.DataAccess.csproj",
+        "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplater.DataAccess\\Boilerplater.DataAccess.csproj",
         "packagesPath": "C:\\Users\\ke.hernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplater.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplater.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\ke.hernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -244,8 +252,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj": {
-                "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj"
+              "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj": {
+                "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj"
               }
             }
           }
@@ -297,25 +305,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate\\Boilerplate.API.csproj": {
+    "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate\\Boilerplate.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate\\Boilerplate.API.csproj",
+        "projectUniqueName": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate\\Boilerplate.API.csproj",
         "projectName": "Boilerplate.API",
-        "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate\\Boilerplate.API.csproj",
+        "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate\\Boilerplate.API.csproj",
         "packagesPath": "C:\\Users\\ke.hernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate\\obj\\",
+        "outputPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\ke.hernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -327,11 +337,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj": {
-                "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj"
+              "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj": {
+                "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj"
               },
-              "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj": {
-                "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj"
+              "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj": {
+                "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj"
               }
             }
           }
@@ -368,7 +378,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
