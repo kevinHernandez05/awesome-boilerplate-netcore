@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boilerplate.Test", "Boilerp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boilerplate.Service", "Boilerplate.Service\Boilerplate.Service.csproj", "{D186E804-3C1D-4A93-9DEA-D1670287F374}"
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Boilerplate.Client", "Boilerplate.Client\Boilerplate.Client.njsproj", "{8CDA86AA-51D1-417F-AACC-132B461AE602}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boilerplate.Web", "Boilerplate.Web\Boilerplate.Web.csproj", "{81B9F4CF-323C-442B-9348-7133DDAC1D2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{D186E804-3C1D-4A93-9DEA-D1670287F374}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D186E804-3C1D-4A93-9DEA-D1670287F374}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D186E804-3C1D-4A93-9DEA-D1670287F374}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8CDA86AA-51D1-417F-AACC-132B461AE602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8CDA86AA-51D1-417F-AACC-132B461AE602}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8CDA86AA-51D1-417F-AACC-132B461AE602}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8CDA86AA-51D1-417F-AACC-132B461AE602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B9F4CF-323C-442B-9348-7133DDAC1D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B9F4CF-323C-442B-9348-7133DDAC1D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B9F4CF-323C-442B-9348-7133DDAC1D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B9F4CF-323C-442B-9348-7133DDAC1D2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,3 +7,12 @@ C:\Users\ke.hernandez\Desktop\Boilerplate\Boilerplate\Boilerplate.Model\obj\Debu
 C:\Users\ke.hernandez\Desktop\Boilerplate\Boilerplate\Boilerplate.Model\obj\Debug\netcoreapp3.1\Boilerplate.Model.dll
 C:\Users\ke.hernandez\Desktop\Boilerplate\Boilerplate\Boilerplate.Model\obj\Debug\netcoreapp3.1\Boilerplate.Model.pdb
 C:\Users\ke.hernandez\Desktop\Boilerplate\Boilerplate\Boilerplate.Model\obj\Debug\netcoreapp3.1\Boilerplate.Model.csprojAssemblyReference.cache
+C:\Users\ke.hernandez\Desktop\Documentos\Custom Boilerplate\Boilerplate\Boilerplate.Model\bin\Debug\netcoreapp3.1\Boilerplate.Model.deps.json
+C:\Users\ke.hernandez\Desktop\Documentos\Custom Boilerplate\Boilerplate\Boilerplate.Model\bin\Debug\netcoreapp3.1\Boilerplate.Model.dll
+C:\Users\ke.hernandez\Desktop\Documentos\Custom Boilerplate\Boilerplate\Boilerplate.Model\bin\Debug\netcoreapp3.1\Boilerplate.Model.pdb
+C:\Users\ke.hernandez\Desktop\Documentos\Custom Boilerplate\Boilerplate\Boilerplate.Model\obj\Debug\netcoreapp3.1\Boilerplate.Model.csprojAssemblyReference.cache
+C:\Users\ke.hernandez\Desktop\Documentos\Custom Boilerplate\Boilerplate\Boilerplate.Model\obj\Debug\netcoreapp3.1\Boilerplate.Model.AssemblyInfoInputs.cache
+C:\Users\ke.hernandez\Desktop\Documentos\Custom Boilerplate\Boilerplate\Boilerplate.Model\obj\Debug\netcoreapp3.1\Boilerplate.Model.AssemblyInfo.cs
+C:\Users\ke.hernandez\Desktop\Documentos\Custom Boilerplate\Boilerplate\Boilerplate.Model\obj\Debug\netcoreapp3.1\Boilerplate.Model.csproj.CoreCompileInputs.cache
+C:\Users\ke.hernandez\Desktop\Documentos\Custom Boilerplate\Boilerplate\Boilerplate.Model\obj\Debug\netcoreapp3.1\Boilerplate.Model.dll
+C:\Users\ke.hernandez\Desktop\Documentos\Custom Boilerplate\Boilerplate\Boilerplate.Model\obj\Debug\netcoreapp3.1\Boilerplate.Model.pdb

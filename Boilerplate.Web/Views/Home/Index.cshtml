@@ -1,0 +1,96 @@
+﻿@{
+    ViewData["Title"] = "Consulta Bono Navideño";
+}
+
+<div class="text-center container form-container">
+    <a href="https://progresandoconsolidaridad.gob.do/" target="_blank">
+        <img id="logo" class="img-responsive image-center" src="~/img/LogoPROSOLI_parte_arriba.png" alt="Logo Progresando con Solidaridad">
+    </a>
+    <div>
+        <h3 id="titulo">Consulta tu número de cédula</h3>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <input id="cedulatextbox" type="text" class="form-control form-control-sm" placeholder="Inserte su cédula" data-mask="999-9999999-9" />
+            <p id="validator"></p>
+        </div>
+    </div>
+    <div class="div-btn-consulta-cedula" data-toggle="modal" data-target="#respuestaBonoNavideño">
+        <button id="BtnConsulta" type="button" class="btn btn-primary">Consultar</button>
+    </div>
+
+</div>
+
+<div class="copyright">
+    <a href="https://progresandoconsolidaridad.gob.do/" target="_blank">
+        <img class="img-responsive image-center logos logo_presidencia" src="~/img/SIUBEN.png" alt="Logo Progresando con Solidaridad">
+    </a>
+    <a href="https://progresandoconsolidaridad.gob.do/" target="_blank">
+        <img class="img-responsive image-center logos logo_presidencia" src="~/img/ADESS.png" alt="Logo Progresando con Solidaridad">
+    </a>
+    <a href="https://progresandoconsolidaridad.gob.do/" target="_blank">
+        <img class="img-responsive image-center logos logo_presidencia" src="~/img/VICEPRESIDENCIA.png" alt="Logo Progresando con Solidaridad">
+    </a>
+
+</div>
+
+
+<!--Modal-->
+
+<div class="modal fade" id="respuestaBonoNavideño" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="respuestaBonoNavideño" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Consulta Bono Navideño</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <!--Success-->
+            <div id="good" class="modal-body">
+                <div class="text-center">
+                    <h2>
+                        KEVIN ANTONIO HERNANDEZ AVELINO
+                    </h2>
+                    <p>402-2455596-7</p>
+
+                    <div>
+                        <p>Usted se encuentra incluido/a para recibir el <strong>Bono Navideño</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Failed-->
+            <div id="bad" class="modal-body" style="display: none">
+                <div class="text-center">
+                    <h2>
+                        NOMBRE DEL BENEFICIARIO
+                    </h2>
+
+                    <p id="cedulaLine"></p>
+
+                    <div>
+                        <p>Usted no se encuentra incluido/a para recibir el <strong>Bono Navideño</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button id="GenerarTicket" type="button" class="btn btn-primary">Imprimir comprobante</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+
+    <script src="~/js/jquery.mask.min.js"></script>
+    <script src="~/js/modal-logic.js"></script>
+
+}
+
+
+
+
