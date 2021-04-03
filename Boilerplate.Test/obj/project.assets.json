@@ -9096,27 +9096,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ke.hernandez\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Kevin Hernandez\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Test\\Boilerplate.Test.csproj",
+      "projectUniqueName": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Test\\Boilerplate.Test.csproj",
       "projectName": "Boilerplate.Test",
-      "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Test\\Boilerplate.Test.csproj",
-      "packagesPath": "C:\\Users\\ke.hernandez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Test\\obj\\",
+      "projectPath": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Test\\Boilerplate.Test.csproj",
+      "packagesPath": "C:\\Users\\Kevin Hernandez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Test\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ke.hernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Kevin Hernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -9127,12 +9120,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj": {
-              "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Service\\Boilerplate.Service.csproj"
+            "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Service\\Boilerplate.Service.csproj": {
+              "projectPath": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Service\\Boilerplate.Service.csproj"
             },
-            "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate\\Boilerplate.API.csproj": {
-              "projectPath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate\\Boilerplate.API.csproj"
+            "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate\\Boilerplate.API.csproj": {
+              "projectPath": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate\\Boilerplate.API.csproj"
             }
           }
         }
@@ -9145,6 +9139,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -9185,7 +9180,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

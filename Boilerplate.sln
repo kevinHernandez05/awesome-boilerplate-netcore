@@ -13,7 +13,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boilerplate.Test", "Boilerp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boilerplate.Service", "Boilerplate.Service\Boilerplate.Service.csproj", "{D186E804-3C1D-4A93-9DEA-D1670287F374}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boilerplate.Web", "Boilerplate.Web\Boilerplate.Web.csproj", "{81B9F4CF-323C-442B-9348-7133DDAC1D2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boilerplate.Web", "Boilerplate.Web\Boilerplate.Web.csproj", "{81B9F4CF-323C-442B-9348-7133DDAC1D2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B68EA8D-A35E-4D3C-8D6D-1F35DAC9CCC8}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,87 +1,33 @@
 ﻿@{
-    ViewData["Title"] = "Consulta Bono Navideño";
+    ViewData["Title"] = "Página Inicial";
 }
 
-<div class="text-center container form-container">
-    <a href="https://progresandoconsolidaridad.gob.do/" target="_blank">
-        <img id="logo" class="img-responsive image-center" src="~/img/LogoPROSOLI_parte_arriba.png" alt="Logo Progresando con Solidaridad">
-    </a>
-    <div>
-        <h3 id="titulo">Consulta tu número de cédula</h3>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <input id="cedulatextbox" type="text" class="form-control form-control-sm" placeholder="Inserte su cédula" data-mask="999-9999999-9" />
-            <p id="validator"></p>
-        </div>
-    </div>
-    <div class="div-btn-consulta-cedula" data-toggle="modal" data-target="#respuestaBonoNavideño">
-        <button id="BtnConsulta" type="button" class="btn btn-primary">Consultar</button>
-    </div>
+<div class="container">
+    <h1 id="project-title">Awesome Boilerplate Netcore</h1>
+    <p>Este es un boilerplate hecho con net core 3.1 y Entity Framework, pensado para ligerar y reducir el tiempo de desarrollo a la hora de crear proyectos nuevos en .Net Core.</p>
+    <h2 id="getting-started">¿Qué tenemos disponible?</h2>
+    <ul>
+        <li>Proyecto web con Razor Pages</li>
+        <li>Api funcional con net core 3.1</li>
+        <li>Generador de JWT</li>
+        <li>Proyecto dividido por capas: modelos>data access>servicios>controladores>viewmodels>views</li>
+        <li>Entity Framework</li>
+        <li>Pruebas Unitarias con XUnit</li>
 
-</div>
-
-<div class="copyright">
-    <a href="https://progresandoconsolidaridad.gob.do/" target="_blank">
-        <img class="img-responsive image-center logos logo_presidencia" src="~/img/SIUBEN.png" alt="Logo Progresando con Solidaridad">
-    </a>
-    <a href="https://progresandoconsolidaridad.gob.do/" target="_blank">
-        <img class="img-responsive image-center logos logo_presidencia" src="~/img/ADESS.png" alt="Logo Progresando con Solidaridad">
-    </a>
-    <a href="https://progresandoconsolidaridad.gob.do/" target="_blank">
-        <img class="img-responsive image-center logos logo_presidencia" src="~/img/VICEPRESIDENCIA.png" alt="Logo Progresando con Solidaridad">
-    </a>
-
-</div>
-
-
-<!--Modal-->
-
-<div class="modal fade" id="respuestaBonoNavideño" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="respuestaBonoNavideño" aria-hidden="true">
-    <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel">Consulta Bono Navideño</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-
-            <!--Success-->
-            <div id="good" class="modal-body">
-                <div class="text-center">
-                    <h2>
-                        KEVIN ANTONIO HERNANDEZ AVELINO
-                    </h2>
-                    <p>402-2455596-7</p>
-
-                    <div>
-                        <p>Usted se encuentra incluido/a para recibir el <strong>Bono Navideño</strong></p>
-                    </div>
-                </div>
-            </div>
-
-            <!--Failed-->
-            <div id="bad" class="modal-body" style="display: none">
-                <div class="text-center">
-                    <h2>
-                        NOMBRE DEL BENEFICIARIO
-                    </h2>
-
-                    <p id="cedulaLine"></p>
-
-                    <div>
-                        <p>Usted no se encuentra incluido/a para recibir el <strong>Bono Navideño</strong></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                <button id="GenerarTicket" type="button" class="btn btn-primary">Imprimir comprobante</button>
-            </div>
-        </div>
-    </div>
+    </ul>
+    <h3 id="prerequisites">Prerequisitos</h3>
+    <p>Visual Studio 2019... mas nada.</p>
+    @*<h2 id="contributing">Contribuciones</h2>
+    <p>Por favor, Lea <a href="https://gist.github.com/PurpleBooth/b24679402957c63ec426">CONTRIBUTING.md</a> para detalles sobre el código de conducta y el proceso para aprobación de Pull Requests.</p>*@
+    <h2 id="versioning">Versionado</h2>
+    <p>Utilizamos GIT para el versionado del proyecto.</p>
+    <h2 id="authors">Autor</h2>
+    <ul>
+        <li><strong>Kevin Hernandez</strong> - <em>Awesome Boilerplate Netcore</em> - <a href="https://github.com/kevinHernandez05/awesome-boilerplate-netcore">Enlace al repositorio.</a></li>
+    </ul>
+    @*<p>Y mire tambien una lista de <a href="https://github.com/your/project/contributors">contribuidores</a> que participaron en este proyecto.</p>*@
+    <h2 id="license">Licencia</h2>
+    <p>DWTFYW - <a href="https://choosealicense.com/licenses/wtfpl/">Ver más detalles...</a></p>
 </div>
 
 @section Scripts{

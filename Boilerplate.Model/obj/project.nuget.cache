@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HeaPeGT7UVLLGIgsgRkRkoIrQm+XLzWyW7ZIfFnU8wozzIivZjgVy+RnVwve3jWNSZfiZDxQVL+zu4Gj1I8pbg==",
+  "dgSpecHash": "2nzxbX4OR2Bl0ft1iMieKE9W24VbJv1AH4sPukAHGk6zSxw3RL1tcH0C1CE6nCMWMqlGXCiaqKhPSF8KfAtPug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ke.hernandez\\Desktop\\Documentos\\Custom Boilerplate\\Boilerplate\\Boilerplate.Model\\Boilerplate.Model.csproj",
+  "projectFilePath": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Model\\Boilerplate.Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
