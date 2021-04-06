@@ -1937,6 +1937,23 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Boilerplate.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Boilerplate.Model": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8",
+          "Microsoft.Extensions.Configuration.FileExtensions": "3.1.8",
+          "Microsoft.Extensions.Configuration.Json": "3.1.8"
+        },
+        "compile": {
+          "bin/placeholder/Boilerplate.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Boilerplate.DataAccess.dll": {}
+        }
+      },
       "Boilerplate.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1951,8 +1968,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Boilerplate.DataAccess": "1.0.0",
           "Boilerplate.Model": "1.0.0",
-          "Boilerplater.DataAccess": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Formatters.Json": "2.2.0"
         },
@@ -1961,23 +1978,6 @@
         },
         "runtime": {
           "bin/placeholder/Boilerplate.Service.dll": {}
-        }
-      },
-      "Boilerplater.DataAccess/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Boilerplate.Model": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "3.1.8",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8",
-          "Microsoft.Extensions.Configuration.FileExtensions": "3.1.8",
-          "Microsoft.Extensions.Configuration.Json": "3.1.8"
-        },
-        "compile": {
-          "bin/placeholder/Boilerplater.DataAccess.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Boilerplater.DataAccess.dll": {}
         }
       }
     }
@@ -6693,6 +6693,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Boilerplate.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Boilerplate.DataAccess/Boilerplate.DataAccess.csproj",
+      "msbuildProject": "../Boilerplate.DataAccess/Boilerplate.DataAccess.csproj"
+    },
     "Boilerplate.Model/1.0.0": {
       "type": "project",
       "path": "../Boilerplate.Model/Boilerplate.Model.csproj",
@@ -6702,11 +6707,6 @@
       "type": "project",
       "path": "../Boilerplate.Service/Boilerplate.Service.csproj",
       "msbuildProject": "../Boilerplate.Service/Boilerplate.Service.csproj"
-    },
-    "Boilerplater.DataAccess/1.0.0": {
-      "type": "project",
-      "path": "../Boilerplater.DataAccess/Boilerplater.DataAccess.csproj",
-      "msbuildProject": "../Boilerplater.DataAccess/Boilerplater.DataAccess.csproj"
     }
   },
   "projectFileDependencyGroups": {

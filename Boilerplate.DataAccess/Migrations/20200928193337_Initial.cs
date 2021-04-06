@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Boilerplater.DataAccess.Migrations
+namespace Boilerplate.DataAccess.Migrations
 {
     public partial class Initial : Migration
     {

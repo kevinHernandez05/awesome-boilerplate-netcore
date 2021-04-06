@@ -29,7 +29,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Boilerplate.Model\Boilerplate.Model.csproj" />
-    <ProjectReference Include="..\Boilerplater.DataAccess\Boilerplater.DataAccess.csproj" />
+    <ProjectReference Include="..\Boilerplate.DataAccess\Boilerplate.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

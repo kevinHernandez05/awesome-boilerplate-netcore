@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Boilerplater.DataAccess
+namespace Boilerplate.DataAccess
 {
     /*
      * To add a new migration:
