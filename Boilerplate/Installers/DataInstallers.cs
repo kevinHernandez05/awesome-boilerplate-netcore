@@ -1,6 +1,6 @@
 ﻿using Boilerplate.Service;
 using Boilerplate.Service.Helpers;
-using Boilerplater.DataAccess;
+using Boilerplate.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
