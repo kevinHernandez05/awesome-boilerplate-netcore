@@ -1,30 +1,29 @@
 # Awesome Boilerplate Netcore
 
-This is a boilerplate made with Net Core 3.1 and Entity Framework, thinking on speed developing time when creating new .Net Core's projects.
+Este es un boilerplate hecho con net core 3.1 y Entity Framework, pensado para ligerar y reducir el tiempo de desarrollo a la hora de crear proyectos nuevos en .Net Core.
 
-## What's Available?
+## ¿Qué tenemos disponible?
 
-*   Razor Pages's Web Project
-*   REST
-*   JWT Generator
-*   n-layer's Project : model>data access>services>controllers>viewmodels>views
+*   Proyecto web con Razor Pages
+*   Api funcional con net core 3.1
+*   Generador de JWT
+*   Proyecto dividido por capas: modelos>data access>servicios>controladores>viewmodels>views
 *   Entity Framework
-*   Unit testing with XUnit
+*   Pruebas Unitarias con XUnit
 
-### What does we need?
+### Prerequisitos
 
-Visual Studio 2019.
-Yea, Visual Studio. 
+Visual Studio 2019... mas nada.
 
-## Versioning
+## Versionado
 
-GIT
+Utilizamos GIT para el versionado del proyecto.
 
 ## Autor
 
 *   **Kevin Hernandez** - _Awesome Boilerplate Netcore_ - [Enlace al repositorio.](https://github.com/kevinHernandez05/awesome-boilerplate-netcore)
 
 
-## License
+## Licencia
 
-WTFPL - [Ver mï¿½s detalles...](https://choosealicense.com/licenses/wtfpl/)
+DWTFYW - [Ver más detalles...](https://choosealicense.com/licenses/wtfpl/)
