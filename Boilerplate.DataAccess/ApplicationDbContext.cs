@@ -1,4 +1,4 @@
-﻿using Boilerplate.Entities.WeatherForecast;
+﻿using Boilerplate.Model.Entities.WeatherForecast;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
@@ -29,7 +29,7 @@ namespace Boilerplate.DataAccess
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
-        public virtual DbSet<WeatherForecast> WeatherForecast { get; set; }
+        public virtual DbSet<WeatherForecastEntity> WeatherForecast { get; set; }
         
     }
 

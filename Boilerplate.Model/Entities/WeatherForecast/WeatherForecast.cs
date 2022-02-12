@@ -1,9 +1,9 @@
 using Boilerplate.Model;
 using System;
 
-namespace Boilerplate.Entities.WeatherForecast
+namespace Boilerplate.Model.Entities.WeatherForecast
 {
-    public class WeatherForecast : AEntity<int>
+    public class WeatherForecastEntity : AEntity<int>
     {
         public DateTime Date { get; set; }
 

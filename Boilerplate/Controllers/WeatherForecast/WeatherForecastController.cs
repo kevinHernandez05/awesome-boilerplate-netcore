@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Boilerplate.Entities.WeatherForecast;
-using Boilerplate.Service;
+using Boilerplate.Model.Entities.WeatherForecast;
+using Boilerplate.Service.WeatherForecast;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
 
-namespace Boilerplate.Controllers
+namespace Boilerplate.API.Controllers.WeatherForecast
 {
     [ApiController]
     [Route("[controller]")]
@@ -22,7 +22,7 @@ namespace Boilerplate.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        public IEnumerable<WeatherForecastEntity> Get()
         {
             return _weatherForecastService.GetAllWeatherForecast();
 

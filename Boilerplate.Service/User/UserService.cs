@@ -1,6 +1,6 @@
 ﻿using Boilerplate.Model.Entities;
 using Boilerplate.Model.Entities.JWT;
-using Boilerplate.Service.Helpers;
+using Boilerplate.Service.Helpers.jwt;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -10,13 +10,13 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 
-namespace Boilerplate.Service
+namespace Boilerplate.Service.User
 {
     public class UserService : IUserService
     {
-        private List<User> _users = new List<User>
+        private List<UserEntity> _users = new List<UserEntity>
         {
-            new User { Id = 1, FirstName = "Test", LastName = "User", Username = "test", Password = "test" },
+            new UserEntity { Id = 1, FirstName = "Test", LastName = "User", Username = "test", Password = "test" },
         };
 
         public readonly AppSettings _appSettings;
@@ -39,22 +39,22 @@ namespace Boilerplate.Service
             return new AuthenticateResponse(user, token);
         }
 
-        public IEnumerable<User> GetAll()
+        public IEnumerable<UserEntity> GetAll()
         {
             return _users;
         }
 
-        public User GetUserById(int id)
+        public UserEntity GetUserById(int id)
         {
             return _users.FirstOrDefault(x => x.Id == id);
         }
 
         // helper methods
-        private string generateJwtToken(User user)
+        private string generateJwtToken(UserEntity user)
         {
             // generate token that is valid for 7 days
             var tokenHandler = new JwtSecurityTokenHandler();
-            
+
             //if (String.IsNullOrEmpty(_appSettings.Secret))
             //{
             //    _appSettings.Secret = "PROBANDO";

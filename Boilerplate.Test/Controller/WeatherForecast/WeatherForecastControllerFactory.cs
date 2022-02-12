@@ -1,5 +1,5 @@
-﻿using Boilerplate.Controllers;
-using Boilerplate.Service;
+﻿using Boilerplate.API.Controllers.WeatherForecast;
+using Boilerplate.Service.WeatherForecast;
 using Moq;
 using System;
 using System.Collections.Generic;
@@ -22,7 +22,7 @@ namespace Boilerplate.Test.Controller.WeatherForecast
             var service = new Mock<IWeatherForecastService>();
 
             service.Setup(x => x.GetAllWeatherForecast())
-                .Returns(new List<Boilerplate.Entities.WeatherForecast.WeatherForecast>() { 
+                .Returns(new List<Model.Entities.WeatherForecast.WeatherForecast>() { 
                     new Entities.WeatherForecast.WeatherForecast()
                     {
                         Id = 1
@@ -43,7 +43,7 @@ namespace Boilerplate.Test.Controller.WeatherForecast
             var service = new Mock<IWeatherForecastService>();
 
             service.Setup(x => x.GetAllWeatherForecast())
-                .Returns(new List<Boilerplate.Entities.WeatherForecast.WeatherForecast>(){});
+                .Returns(new List<Model.Entities.WeatherForecast.WeatherForecast>(){});
 
             return service;
         }

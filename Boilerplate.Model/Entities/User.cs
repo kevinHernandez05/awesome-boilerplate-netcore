@@ -5,7 +5,7 @@ using System.Text.Json.Serialization;
 
 namespace Boilerplate.Model.Entities
 {
-    public class User : AEntity<int>
+    public class UserEntity : AEntity<int>
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }

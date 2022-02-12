@@ -4,13 +4,13 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Boilerplate.Service
+namespace Boilerplate.Service.User
 {
     public interface IUserService
     {
         AuthenticateResponse Authenticate(AuthenticateRequest model);
-        IEnumerable<User> GetAll();
-        User GetUserById(int id);
+        IEnumerable<UserEntity> GetAll();
+        UserEntity GetUserById(int id);
 
     }
 }

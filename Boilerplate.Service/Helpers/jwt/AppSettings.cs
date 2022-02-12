@@ -1,7 +1,7 @@
-﻿namespace Boilerplate.Service.Helpers
+﻿namespace Boilerplate.Service.Helpers.jwt
 {
     public class AppSettings
     {
-        public string Secret { get; set; } 
+        public string Secret { get; set; }
     }
 }

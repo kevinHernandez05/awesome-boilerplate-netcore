@@ -6,7 +6,7 @@ using Xunit;
 
 namespace Boilerplate.Test.Controller.WeatherForecast
 {
-   
+
     public class WeatherForecastControllerTest
     {
         [Fact]
@@ -17,9 +17,9 @@ namespace Boilerplate.Test.Controller.WeatherForecast
             var controller = WeatherForecastControllerFactory.GetController(service);
             var result = controller.Get();
 
-            Assert.IsType<Entities.WeatherForecast.WeatherForecast>
+            Assert.IsType<Model.Entities.WeatherForecast.WeatherForecast>
                 (result.FirstOrDefault());
-            Assert.IsAssignableFrom<Entities.WeatherForecast.WeatherForecast>
+            Assert.IsAssignableFrom<Model.Entities.WeatherForecast.WeatherForecast>
                 (result.FirstOrDefault());
 
             Assert.Equal(cantidad, result.Count());
@@ -33,8 +33,8 @@ namespace Boilerplate.Test.Controller.WeatherForecast
             var controller = WeatherForecastControllerFactory.GetController(service);
             var result = controller.Get();
 
-            Assert.IsType<List<Entities.WeatherForecast.WeatherForecast>>(result);
-            Assert.IsAssignableFrom<List<Entities.WeatherForecast.WeatherForecast>>(result);
+            Assert.IsType<List<Model.Entities.WeatherForecast.WeatherForecast>>(result);
+            Assert.IsAssignableFrom<List<Model.Entities.WeatherForecast.WeatherForecast>>(result);
             Assert.Equal(cantidad, result.Count());
         }
     }
