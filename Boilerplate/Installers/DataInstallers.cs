@@ -1,6 +1,4 @@
-﻿using Boilerplate.Service;
-using Boilerplate.Service.Helpers;
-using Boilerplate.DataAccess;
+﻿using Boilerplate.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -8,6 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Boilerplate.Service.Helpers.jwt;
+using Boilerplate.Service.WeatherForecast;
+using Boilerplate.Service.User;
 
 namespace Boilerplate.API.Installers
 {

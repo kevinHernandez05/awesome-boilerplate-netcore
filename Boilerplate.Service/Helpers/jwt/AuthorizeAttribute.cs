@@ -11,7 +11,7 @@ namespace Boilerplate.Service.Helpers.jwt
     {
         public void OnAuthorization(AuthorizationFilterContext context)
         {
-            var user = (User)context.HttpContext.Items["User"];
+            var user = (UserEntity)context.HttpContext.Items["User"];
 
             if(user == null)
             {

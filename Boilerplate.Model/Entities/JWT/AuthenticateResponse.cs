@@ -12,7 +12,7 @@ namespace Boilerplate.Model.Entities.JWT
         public string Username { get; set; }
         public string Token { get; set; }
 
-        public AuthenticateResponse(User user, string token)
+        public AuthenticateResponse(UserEntity user, string token)
         {
 
             Id = user.Id;

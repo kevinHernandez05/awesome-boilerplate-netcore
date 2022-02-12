@@ -8,7 +8,14 @@
       "TRACE",
       "DEBUG",
       "NETCOREAPP",
-      "NETCOREAPP3_1"
+      "NETCOREAPP3_1",
+      "NETCOREAPP1_0_OR_GREATER",
+      "NETCOREAPP1_1_OR_GREATER",
+      "NETCOREAPP2_0_OR_GREATER",
+      "NETCOREAPP2_1_OR_GREATER",
+      "NETCOREAPP2_2_OR_GREATER",
+      "NETCOREAPP3_0_OR_GREATER",
+      "NETCOREAPP3_1_OR_GREATER"
     ],
     "languageVersion": "8.0",
     "platform": "",
@@ -1109,11 +1116,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.ComponentModel.Annotations/4.7.0": {
-        "compile": {
-          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
-        }
-      },
+      "System.ComponentModel.Annotations/4.7.0": {},
       "System.ComponentModel.Primitives/4.3.0": {
         "dependencies": {
           "System.ComponentModel": "4.3.0",
@@ -1676,6 +1679,21 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "Boilerplate.DataAccess/1.0.0": {
+        "dependencies": {
+          "Boilerplate.Model": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8",
+          "Microsoft.Extensions.Configuration.FileExtensions": "3.1.8",
+          "Microsoft.Extensions.Configuration.Json": "3.1.8"
+        },
+        "runtime": {
+          "Boilerplate.DataAccess.dll": {}
+        },
+        "compile": {
+          "Boilerplate.DataAccess.dll": {}
+        }
+      },
       "Boilerplate.Model/1.0.0": {
         "runtime": {
           "Boilerplate.Model.dll": {}
@@ -1686,8 +1704,8 @@
       },
       "Boilerplate.Service/1.0.0": {
         "dependencies": {
+          "Boilerplate.DataAccess": "1.0.0",
           "Boilerplate.Model": "1.0.0",
-          "Boilerplater.DataAccess": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Formatters.Json": "2.2.0"
         },
@@ -1696,21 +1714,6 @@
         },
         "compile": {
           "Boilerplate.Service.dll": {}
-        }
-      },
-      "Boilerplater.DataAccess/1.0.0": {
-        "dependencies": {
-          "Boilerplate.Model": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "3.1.8",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8",
-          "Microsoft.Extensions.Configuration.FileExtensions": "3.1.8",
-          "Microsoft.Extensions.Configuration.Json": "3.1.8"
-        },
-        "runtime": {
-          "Boilerplater.DataAccess.dll": {}
-        },
-        "compile": {
-          "Boilerplater.DataAccess.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -4250,17 +4253,17 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
+    "Boilerplate.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Boilerplate.Model/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Boilerplate.Service/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Boilerplater.DataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

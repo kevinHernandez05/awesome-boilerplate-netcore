@@ -11,7 +11,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 
 
-namespace Boilerplate
+namespace Boilerplate.API
 {
     public class Startup
     {

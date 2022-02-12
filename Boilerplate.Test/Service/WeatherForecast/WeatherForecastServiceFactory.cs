@@ -1,4 +1,5 @@
 ﻿using Boilerplate.Service;
+using Boilerplate.Service.WeatherForecast;
 using Moq;
 using System;
 using System.Collections.Generic;

@@ -16,3 +16,13 @@ C:\Users\ke.hernandez\Desktop\Documentos\Custom Boilerplate\Boilerplate\Boilerpl
 C:\Users\ke.hernandez\Desktop\Documentos\Custom Boilerplate\Boilerplate\Boilerplate.Model\obj\Debug\netcoreapp3.1\Boilerplate.Model.csproj.CoreCompileInputs.cache
 C:\Users\ke.hernandez\Desktop\Documentos\Custom Boilerplate\Boilerplate\Boilerplate.Model\obj\Debug\netcoreapp3.1\Boilerplate.Model.dll
 C:\Users\ke.hernandez\Desktop\Documentos\Custom Boilerplate\Boilerplate\Boilerplate.Model\obj\Debug\netcoreapp3.1\Boilerplate.Model.pdb
+C:\Users\kevHe\Desktop\Novacorp\backend\Boilerplate.Model\bin\Debug\netcoreapp3.1\Boilerplate.Model.deps.json
+C:\Users\kevHe\Desktop\Novacorp\backend\Boilerplate.Model\bin\Debug\netcoreapp3.1\Boilerplate.Model.dll
+C:\Users\kevHe\Desktop\Novacorp\backend\Boilerplate.Model\bin\Debug\netcoreapp3.1\Boilerplate.Model.pdb
+C:\Users\kevHe\Desktop\Novacorp\backend\Boilerplate.Model\obj\Debug\netcoreapp3.1\Boilerplate.Model.csproj.AssemblyReference.cache
+C:\Users\kevHe\Desktop\Novacorp\backend\Boilerplate.Model\obj\Debug\netcoreapp3.1\Boilerplate.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevHe\Desktop\Novacorp\backend\Boilerplate.Model\obj\Debug\netcoreapp3.1\Boilerplate.Model.AssemblyInfoInputs.cache
+C:\Users\kevHe\Desktop\Novacorp\backend\Boilerplate.Model\obj\Debug\netcoreapp3.1\Boilerplate.Model.AssemblyInfo.cs
+C:\Users\kevHe\Desktop\Novacorp\backend\Boilerplate.Model\obj\Debug\netcoreapp3.1\Boilerplate.Model.csproj.CoreCompileInputs.cache
+C:\Users\kevHe\Desktop\Novacorp\backend\Boilerplate.Model\obj\Debug\netcoreapp3.1\Boilerplate.Model.dll
+C:\Users\kevHe\Desktop\Novacorp\backend\Boilerplate.Model\obj\Debug\netcoreapp3.1\Boilerplate.Model.pdb

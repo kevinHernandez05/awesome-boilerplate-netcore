@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate\\Boilerplate.API.csproj": {}
+    "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate\\Boilerplate.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.DataAccess\\Boilerplate.DataAccess.csproj": {
+    "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.DataAccess\\Boilerplate.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.DataAccess\\Boilerplate.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.DataAccess\\Boilerplate.DataAccess.csproj",
         "projectName": "Boilerplate.DataAccess",
-        "projectPath": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.DataAccess\\Boilerplate.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Kevin Hernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.DataAccess\\Boilerplate.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\kevHe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Kevin Hernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kevHe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Model\\Boilerplate.Model.csproj": {
-                "projectPath": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Model\\Boilerplate.Model.csproj"
+              "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.Model\\Boilerplate.Model.csproj": {
+                "projectPath": "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.Model\\Boilerplate.Model.csproj"
               }
             }
           }
@@ -82,21 +86,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Model\\Boilerplate.Model.csproj": {
+    "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.Model\\Boilerplate.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Model\\Boilerplate.Model.csproj",
+        "projectUniqueName": "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.Model\\Boilerplate.Model.csproj",
         "projectName": "Boilerplate.Model",
-        "projectPath": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Model\\Boilerplate.Model.csproj",
-        "packagesPath": "C:\\Users\\Kevin Hernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Model\\obj\\",
+        "projectPath": "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.Model\\Boilerplate.Model.csproj",
+        "packagesPath": "C:\\Users\\kevHe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.Model\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Kevin Hernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kevHe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -136,21 +144,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Service\\Boilerplate.Service.csproj": {
+    "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.Service\\Boilerplate.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Service\\Boilerplate.Service.csproj",
+        "projectUniqueName": "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.Service\\Boilerplate.Service.csproj",
         "projectName": "Boilerplate.Service",
-        "projectPath": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Service\\Boilerplate.Service.csproj",
-        "packagesPath": "C:\\Users\\Kevin Hernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Service\\obj\\",
+        "projectPath": "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.Service\\Boilerplate.Service.csproj",
+        "packagesPath": "C:\\Users\\kevHe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.Service\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Kevin Hernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kevHe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -164,11 +176,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.DataAccess\\Boilerplate.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.DataAccess\\Boilerplate.DataAccess.csproj"
+              "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.DataAccess\\Boilerplate.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.DataAccess\\Boilerplate.DataAccess.csproj"
               },
-              "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Model\\Boilerplate.Model.csproj": {
-                "projectPath": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Model\\Boilerplate.Model.csproj"
+              "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.Model\\Boilerplate.Model.csproj": {
+                "projectPath": "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.Model\\Boilerplate.Model.csproj"
               }
             }
           }
@@ -207,21 +219,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate\\Boilerplate.API.csproj": {
+    "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate\\Boilerplate.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate\\Boilerplate.API.csproj",
+        "projectUniqueName": "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate\\Boilerplate.API.csproj",
         "projectName": "Boilerplate.API",
-        "projectPath": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate\\Boilerplate.API.csproj",
-        "packagesPath": "C:\\Users\\Kevin Hernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate\\obj\\",
+        "projectPath": "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate\\Boilerplate.API.csproj",
+        "packagesPath": "C:\\Users\\kevHe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Kevin Hernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kevHe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -235,11 +251,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Model\\Boilerplate.Model.csproj": {
-                "projectPath": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Model\\Boilerplate.Model.csproj"
+              "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.Model\\Boilerplate.Model.csproj": {
+                "projectPath": "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.Model\\Boilerplate.Model.csproj"
               },
-              "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Service\\Boilerplate.Service.csproj": {
-                "projectPath": "C:\\Users\\Kevin Hernandez\\Desktop\\Proyectos\\awesome-boilerplate-netcode\\awesome-boilerplate-netcore\\Boilerplate.Service\\Boilerplate.Service.csproj"
+              "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.Service\\Boilerplate.Service.csproj": {
+                "projectPath": "C:\\Users\\kevHe\\Desktop\\Novacorp\\backend\\Boilerplate.Service\\Boilerplate.Service.csproj"
               }
             }
           }
@@ -277,7 +293,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

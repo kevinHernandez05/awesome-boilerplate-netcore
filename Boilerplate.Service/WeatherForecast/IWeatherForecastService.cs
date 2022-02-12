@@ -1,13 +1,13 @@
-﻿using Boilerplate.Entities.WeatherForecast;
+﻿using Boilerplate.Model.Entities.WeatherForecast;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Boilerplate.Service
+namespace Boilerplate.Service.WeatherForecast
 {
     public interface IWeatherForecastService
     {
-        public IEnumerable<WeatherForecast> GetAllWeatherForecast();
+        public IEnumerable<WeatherForecastEntity> GetAllWeatherForecast();
 
     }
 }
