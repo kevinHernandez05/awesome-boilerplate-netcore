@@ -17,18 +17,18 @@ namespace Boilerplate.API.Installers
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Boilerplate",
-                    Description = "A simple example ASP.NET Core Web API with vue.js",
+                    Title = "awesome-boilerplate-netcore",
+                    Description = "This is a boilerplate made with Net Core 3.1 and Entity Framework, thinking on speed developing time when creating new .Net Core's projects.",
                     Contact = new OpenApiContact
                     {
                         Name = "Kevin Hernandez",
                         Email = "kev.hdez05@gmail.com",
-                        Url = new Uri("https://kevin-hernandez.works/"),
+                        Url = new Uri("https://kevinhernandez.work/"),
                     },
                     License = new OpenApiLicense
                     {
-                        Name = "Use under MIT",
-                        Url = new Uri("https://example.com/license"),
+                        Name = "Licence under WTFPL",
+                        Url = new Uri("https://choosealicense.com/licenses/wtfpl/"),
                     }
                 });
             });
